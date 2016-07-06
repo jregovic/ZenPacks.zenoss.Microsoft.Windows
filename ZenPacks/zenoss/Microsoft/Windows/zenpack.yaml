@@ -103,9 +103,10 @@ classes:
         label: MS Exchange Version
         default: None
       ip_and_hostname:
+        label: IP and Hostname
         default: None
       domain_controller:
-        label: MS Exchange Version
+        label: Domain Controller
         type: boolean
         default: false
     impacts:

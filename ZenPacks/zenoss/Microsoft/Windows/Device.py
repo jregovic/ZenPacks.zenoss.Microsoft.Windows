@@ -122,7 +122,7 @@ class Device(schema.Device):
 
     def is_exchange(self):
         '''return True if this is an Exchange server'''
-        if self.msexchangeversion:
+        if self.msexchangeversion and self.msexchangeversion is not 'None':
             return True
         return False
 
