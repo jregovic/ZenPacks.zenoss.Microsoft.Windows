@@ -13,7 +13,6 @@ import string
 from Globals import InitializeClass
 from AccessControl import ClassSecurityInfo
 from Products.ZenModel.WinService import WinService as BaseWinService
-from Products.ZenModel.Service import Service
 
 log = logging.getLogger('zen.MicrosoftWindows')
 

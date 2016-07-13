@@ -11,7 +11,6 @@ import logging
 from . import schema
 from socket import gaierror
 from Products.ZenUtils.IpUtil import getHostByName
-from utils import cluster_state_string
 
 log = logging.getLogger("zen.MicrosoftWindows")
 
